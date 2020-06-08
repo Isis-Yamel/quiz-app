@@ -1,0 +1,43 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #282c34;
+  box-sizing: border-box;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  &__header {
+    text-align: center;
+  }
+
+  &__image {
+    width: 10%;
+  }
+
+  &__title {
+    visibility: hidden;
+  }
+
+  &__buttons {
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 20%;
+  }
+}
+
+.buttons__layout {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
