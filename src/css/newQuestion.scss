@@ -1,0 +1,27 @@
+.form {
+    &__layout {
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
+
+    &__inputContainer {
+        margin: 10px;
+        width: 30%;
+    }
+
+    &__input {
+        width: 100%;
+    }
+}
+
+.button__submit {
+    background-color: #5ca0ec;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    margin: 20px;
+    width: 10%;
+}
